@@ -1,0 +1,160 @@
+.textds {
+    text-decoration: none;
+    font-size: 24px; 
+    color: #ffffff;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+.spacer1 {
+    padding: 1%;
+}
+.spacer3 {
+    padding: 3%;
+}
+.spacer5 {
+    padding: 5%;
+}
+.spacer10 {
+    padding: 10%;
+}
+.bordered_row {
+    border: 0px solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bordered_column {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bordered_column1 {
+    border: 0px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.stroke {
+    font: bold 3em Arial, sans-serif;
+    color: black;
+    text-shadow: rgb(212, 211, 211) 15px 15px 0;
+}	 
+.stroke1 {
+    font: bold 3em Arial, sans-serif;
+    color: black;
+    text-shadow: rgb(167, 167, 167) 15px 15px 0;
+}	 
+.button__auth{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: #ffffff;
+}
+.button__auth:hover{
+    transform: translateY(-5px);
+    background-color: black;
+    color: #FFF;
+}
+.button__auth1{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: #04B6DC;
+    color: #ffffff
+}
+.button__auth1:hover{
+    transform: translateY(-5px);
+    background-color: #000000;
+    color: #ffffff;
+}
+.button__auth2{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: #04B6DC;
+    color: black;
+}
+.button__auth2:hover{
+    transform: translateY(-5px);
+    background-color: #000000;
+    color: #ffffff;
+}
+.baner{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.baner:hover{
+    transform: translateY(-5px);
+}
+
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 13.5vw;
+  height: 2.5vw;
+  margin: 0 auto;
+}
+input, button {
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+  border: 3px solid #311c24;
+}
+button {
+  border: none;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #311c24;
+}
+input:focus {
+  border-color: #04B6DC;
+}
+
+
+/* TABLE */
+
+.user-list tbody td .user-subhead {
+	font-size: 0.875em;
+	font-style: italic;
+}
+.table thead > tr > th {
+	border-bottom: 1px solid #C2C2C2;
+	padding-bottom: 0;
+}
+.table tbody > tr > td {
+	font-size: 0.875em;
+	background: #f5f5f5;
+	border-top: 10px solid #fff;
+	vertical-align: middle;
+	padding: 0.70vw 0.70vw;
+}
+.table thead > tr > th span {
+	border-bottom: 2px solid #C2C2C2;
+	display: inline-block;
+	padding: 0 5px;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
